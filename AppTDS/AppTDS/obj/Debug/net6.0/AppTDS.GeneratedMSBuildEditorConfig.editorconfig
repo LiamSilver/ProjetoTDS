@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppTDS
+build_property.RootNamespace = AppTDS
+build_property.ProjectDir = C:\Users\William\Desktop\UTFPR\7º Período\TDS\ProjetoTDS\AppTDS\AppTDS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\William\Desktop\UTFPR\7º Período\TDS\ProjetoTDS\AppTDS\AppTDS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Pages/ForgotPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ290UGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-b6npvvjwuc
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jksj6fnw6p
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/William/Desktop/UTFPR/7º Período/TDS/ProjetoTDS/AppTDS/AppTDS/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

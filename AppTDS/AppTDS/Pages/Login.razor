@@ -1,0 +1,75 @@
+﻿@page "/"
+@using AppTDS.Models
+@inject NavigationManager Navigation
+@inject RegistrationSystem RegistrationSystem
+
+<link href="~/css/login.css" rel="stylesheet" />
+
+<div class="login-container">
+    <div class="login-header">
+        <h3>Login</h3>
+    </div>
+
+    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <InputText id="email" @bind-Value="loginModel.Email" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <InputText id="senha" @bind-Value="loginModel.Password" type="password" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert">@errorMessage</div>
+    }
+
+    <div class="links">
+        <button class="btn btn-secondary" @onclick="NavigateToRegister">Criar Novo Usuário</button>
+        <button class="btn btn-secondary" @onclick="NavigateToForgotPassword">Esqueci a Senha</button>
+    </div>
+</div>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private string errorMessage;
+
+    private async Task HandleLogin()
+    {
+        var user = await RegistrationSystem.AuthenticateUserAsync(loginModel.Email, loginModel.Password);
+        if (user != null)
+        {
+            Navigation.NavigateTo("/TelaInicial");
+        }
+        else
+        {
+            errorMessage = "Usuário não encontrado ou senha incorreta.";
+        }
+    }
+
+    private void NavigateToRegister()
+    {
+        Navigation.NavigateTo("/register");
+    }
+
+    private void NavigateToForgotPassword()
+    {
+        Navigation.NavigateTo("/forgotpassword");
+    }
+
+    public class LoginModel
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}

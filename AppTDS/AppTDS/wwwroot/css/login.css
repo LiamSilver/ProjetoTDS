@@ -1,0 +1,90 @@
+﻿/* Centralizar completamente no meio da tela */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tela inteira */
+    margin: 0; /* Remove margem padrão */
+    background-color: #f3f3f3; /* Fundo claro para contraste */
+}
+
+.login-container {
+    max-width: 400px; /* Define a largura máxima do container */
+    width: 100%; /* Para garantir responsividade */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .login-header h3 {
+        margin: 0;
+        color: #333;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .form-group input {
+        width: 100%; /* Largura total para alinhar com o botão */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Garante que padding não afete o tamanho */
+    }
+
+    .form-group button {
+        width: 100%; /* Botão com largura igual à dos inputs */
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .links button {
+        width: calc(50% - 10px); /* Divide espaço entre os dois botões */
+        padding: 10px;
+        margin: 5px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .links button:hover {
+            background-color: #0056b3;
+        }
+
+.alert {
+    margin-top: 20px;
+    color: #d9534f;
+    text-align: center;
+}

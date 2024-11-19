@@ -1,0 +1,108 @@
+﻿@page "/register"
+@using AppTDS.Models
+@inject NavigationManager Navigation
+@inject HttpClient Http
+
+<link href="~/css/register.css" rel="stylesheet" />
+
+<div class="register-container">
+    <div class="register-header">
+        <h3>Cadastrar</h3>
+    </div>
+
+    <EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>Nome de Usuário:</label>
+            <InputText @bind-Value="registerModel.Username" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Nome:</label>
+            <InputText @bind-Value="registerModel.Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <InputText @bind-Value="registerModel.Email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Senha:</label>
+            <InputText @bind-Value="registerModel.Password" type="password" class="form-control" />
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Registrar</button>
+        </div>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger">@errorMessage</div>
+    }
+</div>
+
+@code {
+    private RegisterModel registerModel = new RegisterModel();
+    private string errorMessage;
+
+    private async Task HandleRegister()
+    {
+        if (string.IsNullOrWhiteSpace(registerModel.Username) ||
+            string.IsNullOrWhiteSpace(registerModel.Name) ||
+            string.IsNullOrWhiteSpace(registerModel.Email) ||
+            string.IsNullOrWhiteSpace(registerModel.Password))
+        {
+            errorMessage = "Todos os campos são obrigatórios.";
+            return;
+        }
+
+        if (!IsValidEmail(registerModel.Email))
+        {
+            errorMessage = "Formato de email inválido.";
+            return;
+        }
+
+        try
+        {
+            var user = new User(registerModel.Username, registerModel.Name, registerModel.Email, registerModel.Password);
+            var handler = new HttpClientHandler();
+            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+
+            var client = new HttpClient(handler);
+            var response = await client.PostAsJsonAsync("https://host.docker.internal:53879/api/User", user);
+            if (response.IsSuccessStatusCode)
+            {
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                errorMessage = "Erro ao registrar usuário.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Erro ao registrar usuário: {ex.Message}";
+        }
+    }
+
+    private bool IsValidEmail(string email)
+    {
+        try
+        {
+            var addr = new System.Net.Mail.MailAddress(email);
+            return addr.Address == email;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
+    public class RegisterModel
+    {
+        public string Username { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+}

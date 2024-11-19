@@ -1,0 +1,12 @@
+@Url = https://localhost:53879/api/User
+
+### Requisição POST para criar um usuário
+POST {{Url}}
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "name": "Test User",
+  "email": "testuser@example.com",
+  "password": "password123"
+}
