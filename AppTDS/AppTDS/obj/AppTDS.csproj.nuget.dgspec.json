@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William\\Desktop\\UTFPR\\7º Período\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj": {}
+    "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William\\Desktop\\UTFPR\\7º Período\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj": {
+    "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William\\Desktop\\UTFPR\\7º Período\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj",
+        "projectUniqueName": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj",
         "projectName": "AppTDS",
-        "projectPath": "C:\\Users\\William\\Desktop\\UTFPR\\7º Período\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj",
-        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William\\Desktop\\UTFPR\\7º Período\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\obj\\",
+        "projectPath": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\AppTDS.csproj",
+        "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
+        "outputPath": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
