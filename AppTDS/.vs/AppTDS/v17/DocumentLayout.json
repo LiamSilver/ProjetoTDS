@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\",
+  "WorkspaceRootPath": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|c:\\users\\william\\desktop\\utfpr\\7\u00BA per\u00EDodo\\tds\\projetotds\\apptds\\apptds\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|solutionrelative:apptds\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|c:\\projetofinaltds\\projetotds\\apptds\\apptds\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|solutionrelative:apptds\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|c:\\users\\william\\desktop\\utfpr\\7\u00BA per\u00EDodo\\tds\\projetotds\\apptds\\apptds\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|solutionrelative:apptds\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|c:\\users\\william\\desktop\\utfpr\\7\u00BA per\u00EDodo\\tds\\projetotds\\apptds\\apptds\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|solutionrelative:apptds\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|c:\\projetofinaltds\\projetotds\\apptds\\apptds\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC78431D-765E-47B8-819C-5FE3AC24E619}|AppTDS\\AppTDS.csproj|solutionrelative:apptds\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +22,41 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "register.css",
-              "DocumentMoniker": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\wwwroot\\css\\register.css",
-              "RelativeDocumentMoniker": "AppTDS\\wwwroot\\css\\register.css",
-              "ToolTip": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\wwwroot\\css\\register.css",
-              "RelativeToolTip": "AppTDS\\wwwroot\\css\\register.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-19T13:52:11.356Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "AppTDS\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\Pages\\Register.razor",
-              "RelativeToolTip": "AppTDS\\Pages\\Register.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T13:26:30.129Z",
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "AppTDS\\Models\\Contact.cs",
+              "ToolTip": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\Models\\Contact.cs",
+              "RelativeToolTip": "AppTDS\\Models\\Contact.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:47:40.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "AppTDS\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\William\\Desktop\\UTFPR\\7\u00BA Per\u00EDodo\\TDS\\ProjetoTDS\\AppTDS\\AppTDS\\Services\\UserService.cs",
-              "RelativeToolTip": "AppTDS\\Services\\UserService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AppTDS\\Models\\User.cs",
+              "ToolTip": "C:\\projetoFinalTDS\\ProjetoTDS\\AppTDS\\AppTDS\\Models\\User.cs",
+              "RelativeToolTip": "AppTDS\\Models\\User.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T20:20:59.731Z",
+              "WhenOpened": "2024-11-19T17:55:09.692Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
