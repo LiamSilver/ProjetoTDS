@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppTDS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cbb090d2e44a5e95bf0ef2aa3a349a7fcc12304")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813dda45853314c3dbfbe3edfb2f0bcba069c846")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppTDS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppTDS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
